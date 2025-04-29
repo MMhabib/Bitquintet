@@ -19,13 +19,13 @@ This is a responsive pricing page built using **Bootstrap 5** and **custom CSS**
 ## 🖼️ Screenshots
 
 ### 🔹 Desktop View
-![Desktop Screenshot 1](./Screenshoot/Largedevice.jpg)
+![Desktop Screenshot](./Screenshoot/Largedevice.jpg)
+
+### 🔹 Tablet View
+![Tablet Screenshot](./Screenshots/Mediumdevic.jpg)
 
 ### 🔹 Mobile View
-![Mobile Screenshot 1](./Screenshots/Mediumdevic.jpg)
+![Mobile](./Screenshots/Mobiledevice.jpg)
 
-### 🔹 Pricing Cards
-![Pricing Cards Screenshot](./Screenshots/Mobiledevice.jpg)
-
-### 🔹 Navbar Mobile
-![Navbar Mobile Screenshot](./Screenshots/Mobiledevice2.jpg)
+### 🔹  Mobile View 2
+![Mobile Screenshot](./Screenshots/Mobiledevice2.jpg)
