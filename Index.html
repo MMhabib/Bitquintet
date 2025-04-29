@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pricing Plans</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://db.onlinewebfonts.com/c/ccfdf10ba24124f7c35e43827aec5344?family=Noyh+R+W01+Medium" rel="stylesheet">
+  
+  <link rel="stylesheet" href="index.css">
+  
+   
+</head>
+<body class="mx-auto" >
+  
+    <!-- Navabar -->
+    <nav class="navbar navbar-expand-lg custom-navbar" style="width: full; height: 90px;">
+      <div class="container-fluid p-0 d-flex justify-content-between align-items-center position-relative">
+        
+        <!-- Left (Toggler + Buttons) -->
+        <div class="d-flex d-lg-none align-items-center gap-2">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon text-white">☰</span>
+          </button>
+        </div>
+    
+        <!-- Center (Logo) -->
+        <a class="navbar-brand d-lg-none mx-auto" href="#">
+          <img class="custom-logo" src="b4562738987edf96ec313869af95191a5e2ac029.png" alt="Logo">
+        </a>
+    
+        <!-- Right (Icons) -->
+        <div class="d-flex d-lg-none align-items-center gap-3">
+          <img src="https://cdn-icons-png.flaticon.com/512/1827/1827392.png" 
+               alt="Bell" 
+               class="d-none d-sm-block"
+               style="width: 24px; height: 24px;">
+          <img class="avatar-img" src="91dtkb.jpg" alt="Avatar">
+        </div>
+    
+        <!-- Mobile Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="d-lg-none mt-3">
+            <div class="dropdown-menu show d-block border-0 bg-transparent">
+              <a class="dropdown-item nav-link" href="#">Go Live</a>
+              <button class="dropdown-item btn subscription-btn w-auto mx-2">Subscription</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Large screens layout  -->
+        <div class="d-none d-lg-flex navbar-lg-layout w-100">
+          <div class="left-group">
+            <img class="custom-logo" src="b4562738987edf96ec313869af95191a5e2ac029.png" alt="Logo">
+            <a class="nav-link" href="#">Go Live</a>
+            <button class="btn subscription-btn">Subscription</button>
+          </div>
+          <div class="right-group">
+            <img src="https://cdn-icons-png.flaticon.com/512/1827/1827392.png" alt="Bell" style="width: 24px; height: 24px;">
+            <img class="avatar-img" src="91dtkb.jpg" alt="Avatar">
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- ****************************** -->
+
+    <!-- Heading -->
+      <div  style="padding-top: 40px;">
+        <h1 id="heading" style=" margin-bottom: 18px;">Our Pricing Plans</h1>
+        <div style="display: flex; justify-content: center;">
+          <div style="width: 182px; height: 44px; padding: 4px; background: #1D223F; border-radius: 38px; display: flex; gap: 4px;">
+            
+            <button style="flex: 1; background: #2F3555; border: none; border-radius: 38px; padding: 10px 16px; color: white; font-size: 16px; font-family: Graphie; font-weight: 600; line-height: 16px; cursor: pointer;">
+              Monthly
+            </button>
+        
+            <button style="flex: 1; background: transparent; border: none; border-radius: 38px; padding: 10px 16px; color: white; font-size: 16px; font-family: Graphie; font-weight: 600; line-height: 16px; cursor: pointer;">
+              Yearly
+            </button>
+        
+          </div>
+        </div>
+        
+        <!-- Card section -->
+        <div class="card-wrapper mx-auto">
+          <!-- Basic -->
+          <div class="card card-basic">
+            <p >Basic</p>
+            <h2 class="fw-bold text-white">Free</h2>
+            
+            <ul class="list-unstyled   ">
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>2 active live streams</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>Maximum resolution 720p</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>2 platforms for forwarding</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>Advanced analytics access</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>24/7 live support</li>
+              <li class="price-desc"><i class="fas fa-check pricing-check"></i>Secure system</li>
+            </ul>
+            <button class="button mt-4">Get Start For Free</button>
+          </div>
+    
+          <!-- Pro -->
+          <div class="card card-popular">
+            <div  style=" display: flex;  justify-content: start; gap: 8px; ;">
+              <p>Pro</p>
+              <div style="width: 49px; height: 18px; padding: 3px 6px; background: #2EFF7E; border-radius: 4px; display: flex; justify-content: center; align-items: center;">
+                <div style="color: #04418F; font-size: 12px;  font-weight: 500; line-height: 12px;">Popular</div>
+              </div>
+            </div>
+            <h2 class="fw-bold text-white" style="font-size: 32px;">$25<small>/mo</small></h2>
+            
+            <ul class="list-unstyled  ">
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>4 active live streams</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>Maximum resolution 1080p</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>4 platforms for forwarding</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>Advanced analytics access</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>24/7 live support</li>
+              <li class="price-desc"><i class="fas fa-check pricing-check"></i>Secure system</li>
+            </ul>
+            <button class="button mt-4 ">Choose Plan</button>
+          </div>
+    
+          <!-- Enterprise -->
+          <div class="card card-enterprise">
+            <p >Enterprise</p>
+            <h2 class="fw-bold  text-white">$49<small class="text-white">/mo</small></h2>
+            
+            <ul class="list-unstyled  ">
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>15 active live streams</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>Maximum resolution 1440p</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>15 platforms for forwarding</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>Advanced analytics access</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>24/7 live support</li>
+              <li class="price-desc"><i class="fas fa-check pricing-check"></i>Secure system</li>
+            </ul>
+            <button class="button mt-4 ">Choose Plan</button>
+          </div>
+    
+          <!-- Business -->
+          <div class="card card-business">
+            <p >Business</p>
+            <h2 class="fw-bold  text-white">$149<small class="text-white">/mo</small></h2>
+            
+            <ul class="list-unstyled ">
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>20 active live streams</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>Maximum resolution 1440p</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>20 platforms for forwarding</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>Advanced analytics access</li>
+              <li class="mb-4 price-desc"><i class="fas fa-check pricing-check"></i>24/7 live support</li>
+              <li class="price-desc"><i class="fas fa-check pricing-check"></i>Secure system</li>
+            </ul>
+            <button class="button mt-4">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>

@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  
+  font-family: sans-serif;
+  background-color: #0E1330;
+  color: white;
+  
+  
+  
+}
+
+
+    h1 {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 2.5rem;
+    }
+
+    .card-wrapper {
+      display: grid;
+      max-width: 1360px;
+      max-height: 672px;
+      height: auto;
+      grid-template-columns: 1fr;
+      gap: 40px;
+      justify-content: center;
+      margin-top: 56px;
+      
+      
+    }
+
+    .card {
+      width: 310px;
+      margin: 0 auto;
+      border-radius: 20px;
+      padding: 30px;
+      background-color: #1D223F;
+      max-height:488px ;
+      height: auto;
+    }
+
+    @media (min-width: 576px) {
+      .card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    @media (min-width: 768px) {
+      .card-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 992px) {
+      .card-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .card-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .card-basic {
+      border: 8px solid #2A2E44;
+      border-right-width: 2px;
+      border-left-width: 2px;
+    }
+
+    .card-popular {
+      border: 2px solid #1CED5B;
+      border-top-width: 8px;
+      border-bottom-width: 8px;
+    }
+
+    .card-enterprise {
+      border: 8px solid #7880A8;
+      border-right-width: 2px;
+      border-left-width: 2px;
+    }
+    .pricing-title {
+      font-family: 'Clash Display', sans-serif;
+    }
+    .card-business {
+      border: 8px solid #7880A8;
+      border-right-width: 2px;
+      border-left-width: 2px;
+    }
+
+    .pricing-hr {
+      border-top: 1px solid #1e2a4d;
+    }
+
+    .pricing-check {
+      color: #A7B6FF;
+      margin-right: 8px;
+      line-height: 14px;
+      font-size: 14px;
+    }
+
+    .price-desc {
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 14px;
+      
+    }
+    .card p{
+        font-family: 'Clash Display', sans-serif;
+        color: #A7B6FF;
+        font-size: 18px;
+        margin-bottom: 8px;
+        line-height: 18px;
+    }
+    .card h2{
+        font-family: 'Clash Display', sans-serif;
+        font-size: 32px;
+        line-height: 32px;
+        border-bottom: 2px solid #2F3555;
+        padding-bottom: 32px;
+        margin-bottom: 32px;
+       
+    }
+     .button{
+      font-size: 14px; line-height: 14px; padding: 16px 12px 16px 12px;
+      width: 250px;
+      max-height: 46px;
+      height: auto;
+      border: 0px;
+      border-radius: 100px;
+      background-color: #2F3555;
+      color: white;
+     
+    }
+    .card li{
+      font-size: 14px;
+      line-height: 14px;
+      font-family: "Noyh R W01 Medium";
+      font-weight: 500;
+    }
+    #heading{
+      font-size: 54px;
+      font-weight: 700;
+      font-family: 'Clash Display', sans-serif;
+    }
+ 
+
+
+
+
+
+
+/* Navbar styes */
+
+
+    .custom-navbar {
+      background: #161B33;
+      padding: 20px 40px;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .custom-logo {
+      width: 184px;
+      height: 50px;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .subscription-btn {
+      border: 2px solid #ED1C24;
+      border-radius: 100px;
+      color: #ED1C24;
+      font-weight: 700;
+      text-transform: capitalize;
+      padding: 8px 12px;
+      font-size: 16px;
+      background: transparent;
+    }
+
+    .icon-box {
+      width: 24px;
+      height: 24px;
+      position: relative;
+    }
+
+    .icon-box div:first-child {
+      width: 19.5px;
+      height: 17.5px;
+      position: absolute;
+      left: 2.25px;
+      top: 1.25px;
+      background: white;
+    }
+
+    .icon-box div:last-child {
+      width: 13.23px;
+      height: 21.5px;
+      position: absolute;
+      left: 9.52px;
+      top: 1.25px;
+      background: #FF6200;
+    }
+
+    .avatar-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #E3E5E8;
+    }
+
+    @media (max-width: 991px) {
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    z-index: 1;
+  }
+  
+  .navbar-toggler,
+  .right-icons {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+    @media (min-width: 992px) {
+      .navbar-lg-layout {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .left-group,
+      .right-group {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+      }
+
+      .right-group {
+        gap: 24px;
+      }
+    }
