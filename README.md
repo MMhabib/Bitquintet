@@ -22,10 +22,10 @@ This is a responsive pricing page built using **Bootstrap 5** and **custom CSS**
 ![Desktop Screenshot](./Screenshoot/Largedevice.jpg)
 
 ### 🔹 Tablet View
-![Tablet Screenshot](./Screenshots/Mediumdevic.jpg)
+![Tablet Screenshot](./Screenshoot/Mediumdevic.jpg)
 
 ### 🔹 Mobile View
-![Mobile](./Screenshots/Mobiledevice.jpg)
+![Mobile](./Screenshoot/Mobiledevice.jpg)
 
 ### 🔹  Mobile View 2
-![Mobile Screenshot](./Screenshots/Mobiledevice2.jpg)
+![Mobile Screenshot](./Screenshoot/Mobiledevice2.jpg)
